@@ -18,7 +18,7 @@ CREATE TABLE DevicesModel (
     utilisateur_affecte INTEGER NOT NULL,
     configuration VARCHAR(255) NOT NULL,
     etat ENUM('EN_FONCTION', 'EN_MAINTENANCE', 'EN_COMMANDE') NOT NULL,
-    FOREIGN KEY (utilisateur_affecte) REFERENCES UserModel(id)
+    FOREIGN KEY (utilisateur_affecte) REFERENCES UserModel(id) ON DELETE CASCADE
 );
 
 -- Table for TicketModel
@@ -33,8 +33,8 @@ CREATE TABLE TicketModel (
     utilisateur_createur INTEGER NOT NULL,
     poste_informatique INTEGER NOT NULL,
     type_de_demande VARCHAR(255) NOT NULL,
-    FOREIGN KEY (utilisateur_createur) REFERENCES UserModel(id),
-    FOREIGN KEY (poste_informatique) REFERENCES DevicesModel(id)
+    FOREIGN KEY (utilisateur_createur) REFERENCES UserModel(id) ON DELETE CASCADE,
+    FOREIGN KEY (poste_informatique) REFERENCES DevicesModel(id) ON DELETE CASCADE
 );
 
 -- Insert sample data into UserModel

@@ -26,12 +26,12 @@
 			"response": []
 		},
 		{
-			"name": "devices get by ID 34",
+			"name": "devices get by ID 20",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/devices/34",
+					"raw": "http://localhost:8080/devices/20",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -39,7 +39,7 @@
 					"port": "8080",
 					"path": [
 						"devices",
-						"34"
+						"20"
 					]
 				}
 			},
@@ -52,7 +52,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\t\t\t\"id\": \"19\",\r\n\t\t\t\"utilisateur_affecte\": \"6\",\r\n\t\t\t\"etat\": \"EN_COMMANDE\",\r\n\t\t\t\"configuration\": \"Poste pour s'occuper des virus\"\r\n\t\t}",
+					"raw": "{\r\n\t\t\t\"id\": \"39\",\r\n\t\t\t\"utilisateur_affecte\": \"6\",\r\n\t\t\t\"etat\": \"EN_COMMANDE\",\r\n\t\t\t\"configuration\": \"Poste pour s'occuper des virus\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
