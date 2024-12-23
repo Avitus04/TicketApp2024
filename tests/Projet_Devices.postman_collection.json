@@ -80,7 +80,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n\t\"id\": \"08\",\r\n\t\"utilisateur_affecte\": \"Thomas\",\r\n\t\"etat\": \"en maintenance\",\r\n    \"configuration\": \"Poste pour s'occuper des virus et crash\"\r\n}",
+					"raw": "{\r\n\t\"id\": \"08\",\r\n\t\"utilisateur_affecte\": \"5\",\r\n\t\"etat\": \"EN_MAINTENANCE\",\r\n    \"configuration\": \"Poste pour s'occuper des virus et crashs\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
