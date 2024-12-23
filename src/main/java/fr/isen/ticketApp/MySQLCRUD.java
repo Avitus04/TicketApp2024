@@ -9,7 +9,7 @@ import java.util.HashMap;
 public class MySQLCRUD {
 
     private static final String DB_URL = "jdbc:mysql://localhost:3306/ticketApp2024";
-    private static final String USER = "root";
+    private static final String USER = "root2";
     private static final String PASSWORD = "MySQLP4SSw0Rd!";
 
     private Connection connect() throws SQLException {

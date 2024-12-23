@@ -1,6 +1,20 @@
 CREATE DATABASE IF NOT EXISTS TicketApp2024;
 USE TicketApp2024;
 
+
+drop user if exists root2@localhost;
+flush privileges;
+
+-- Créer un utilisateur avec un mot de passe
+CREATE USER 'root2'@'localhost' IDENTIFIED BY 'MySQLP4SSw0Rd!';
+
+-- Accorder tous les privilèges à cet utilisateur sur la base de données
+GRANT ALL PRIVILEGES ON TicketApp2024.* TO 'root2'@'localhost';
+
+-- Appliquer les changements
+FLUSH PRIVILEGES;
+
+
 -- Table for UserModel
 CREATE TABLE UserModel (
     id INTEGER PRIMARY KEY AUTO_INCREMENT,
