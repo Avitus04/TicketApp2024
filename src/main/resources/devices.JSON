@@ -1,0 +1,38 @@
+{"poste_informatique":
+	[
+		{
+			"id": "34",
+			"utilisateur_affecte": "3",
+			"etat": "EN_FONCTION",
+			"configuration": "Poste pour faire des tâches minimes"
+		}
+		,
+		{
+			"id": "12",
+			"utilisateur_affecte": "4",
+			"etat": "EN_FONCTION",
+			"configuration": "Poste pour l'analyse de documents"
+		}
+		,
+		{
+			"id": "22",
+			"utilisateur_affecte": "1",
+			"etat": "EN_COMMANDE",
+			"configuration": "Poste pour s'occuper des horaires"
+		}
+		,
+		{
+			"id": "08",
+			"utilisateur_affecte": "5",
+			"etat": "EN_MAINTENANCE",
+			"configuration": "Poste pour la compta"
+		}
+		,
+		{
+			"id": "36",
+			"utilisateur_affecte": "2",
+			"etat": "EN_COMMANDE",
+			"configuration": "Poste pour s'occuper des logiciels"
+		}
+	]
+}

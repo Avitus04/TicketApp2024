@@ -1,0 +1,155 @@
+{
+  "tickets":
+  [
+    {
+      "id": "1",
+      "titre": "Probleme demarrage",
+      "description": "bah il démarre pas",
+      "date_creation": "12/12/2024 09:00:00",
+      "date_maj": "14/12/2024 09:00:00",
+      "impact": "bloquant",
+      "etat": "ouvert",
+      "utilisateur": "Lana",
+      "poste": "22",
+      "type": "démarrage"
+    }
+  ,
+    {
+      "id": "2",
+      "titre": "Probleme logiciel compta",
+      "description": "le logiciel ne s'ouvre pas",
+      "date_creation": "10/12/2024 11:43:36",
+      "date_maj": "15/12/2024 17:02:50",
+      "impact": "majeur",
+      "etat": "en cours",
+      "utilisateur": "Claire",
+      "poste": "36",
+      "type": "logiciel"
+    }
+  ,
+    {
+      "id": "3",
+      "titre": "Probleme antivirus",
+      "description": "l'antivirus ne marche plus'",
+      "date_creation": "29/11/2024 14:56:36",
+      "date_maj": "02/12/2024 09:21:14",
+      "impact": "majeur",
+      "etat": "résolu",
+      "utilisateur": "Alicia",
+      "poste": "12",
+      "type": "logiciel"
+    }
+  ,
+    {
+      "id": "4",
+      "titre": "Perte du fichier des comptes",
+      "description": "le fichier à été effacé sans faire exprès",
+      "date_creation": "24/11/2024 10:20:36",
+      "date_maj": "27/11/2024 15:54:23",
+      "impact": "bloquant",
+      "etat": "fermé",
+      "utilisateur": "Thomas",
+      "poste": "08",
+      "type": "document"
+    }
+  ,
+    {
+      "id": "5",
+      "titre": "Probleme téléchargement",
+      "description": "le téléchargement ne se lance pas",
+      "date_creation": "14/12/2024 11:34:36",
+      "date_maj": "14/12/2024 13:02:50",
+      "impact": "mineur",
+      "etat": "annulé",
+      "utilisateur": "Amanda",
+      "poste": "34",
+      "type": "téléchargement"
+    }
+  ]
+,
+  "utilisateur":
+  [
+    {
+      "id": "1",
+      "nom": "Lana",
+      "mail": "lanalaplusbelle@gmail.com",
+      "mdp": "lanalove",
+      "derniere_co": "12/12/2024",
+      "actif": "oui"
+    }
+  ,
+    {
+      "id": "2",
+      "nom": "Claire",
+      "mail": "killcreek@gmail.com",
+      "mdp": "45couteauxtorse",
+      "derniere_co": "11/01/1856",
+      "actif": "non"
+    }
+  ,
+    {
+      "id": "3",
+      "nom": "Amanda",
+      "mail": "petitesoeur@gmail.com",
+      "mdp": "peurdunoir",
+      "derniere_co": "07/12/2024",
+      "actif": "non"
+    }
+  ,
+    {
+      "id": "4",
+      "nom": "Alicia",
+      "mail": "alicia.langston@gmail.com",
+      "mdp": "15Guedc67Gfr",
+      "derniere_co": "12/12/2024",
+      "actif": "oui"
+    }
+  ,
+    {
+      "id": "5",
+      "nom": "Thomas",
+      "mail": "connarddepremiere@gmail.com",
+      "mdp": "creve",
+      "derniere_co": "12/12/2024",
+      "actif": "oui"
+    }
+  ]
+,
+  "poste_informatique":
+  [
+    {
+      "id": "34",
+      "utilisateur": "Amanda",
+      "etat": "en fonction",
+      "configuration": "Poste pour faire des tâches minimes"
+    }
+  ,
+    {
+      "id": "12",
+      "utilisateur": "Alicia",
+      "etat": "en fonction",
+      "configuration": "Poste pour l'analyse de documents"
+    }
+  ,
+    {
+      "id": "22",
+      "utilisateur": "Lana",
+      "etat": "en commande",
+      "configuration": "Poste pour s'occuper des horaires"
+    }
+  ,
+    {
+      "id": "08",
+      "utilisateur": "Thomas",
+      "etat": "en maintenance",
+      "configuration": "Poste pour la compta"
+    }
+  ,
+    {
+      "id": "36",
+      "utilisateur": "Claire",
+      "etat": "en commande",
+      "configuration": "Poste pour s'occuper des logiciels"
+    }
+  ]
+}

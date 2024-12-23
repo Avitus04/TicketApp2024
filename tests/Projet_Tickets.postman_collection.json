@@ -1,0 +1,126 @@
+{
+	"info": {
+		"_postman_id": "2a0d3fce-5055-4254-a24c-4c38c07e3c55",
+		"name": "Projet_Tickets",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "31183509"
+	},
+	"item": [
+		{
+			"name": "tickets",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/tickets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tickets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "tickets get by ID 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/tickets/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tickets",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "tickets",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"id\": \"6\",\r\n\t\"titre\": \"erreur lancement\",\r\n\t\"description\": \"une erreur se produit au lancement\",\r\n\t\"date_de_creation\": \"22/12/2024 14:25:36\",\r\n\t\"date_mise_a_jour\": \"22/12/2024 15:54:23\",\r\n\t\"impact\": \"BLOQUANT\",\r\n\t\"etat\": \"EN_COURS\",\r\n\t\"utilisateur_createur\": \"6\",\r\n\t\"poste_informatique\": \"009\",\r\n\t\"type_de_demande\": \"erreur\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/tickets",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tickets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "tickets",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"id\": \"2\",\r\n        \"titre\": \"Probleme logiciel compta\",\r\n        \"description\": \"le logiciel ne s'ouvre pas\",\r\n        \"impact\": \"MAJEUR\",\r\n        \"etat\": \"FERME\",\r\n        \"utilisateur_createur\": \"2\",\r\n        \"poste_informatique\": \"36\",\r\n        \"type_de_demande\": \"logiciel\",\r\n        \"date_de_creation\": \"10/12/2024 11:43:36\",\r\n        \"date_mise_a_jour\": \"22/12/2024 17:02:50\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/tickets/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tickets",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "tickets",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/tickets/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"tickets",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

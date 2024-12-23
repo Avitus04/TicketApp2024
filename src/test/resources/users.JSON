@@ -1,0 +1,48 @@
+{"utilisateur":
+	[
+		{
+			"id": "1",
+			"nom": "Lana",
+			"mail": "lanalaplusbelle@gmail.com",
+			"mdp": "lanalove",
+			"derniere_co": "12/12/2024",
+			"actif": "oui"
+		}
+		,
+		{
+			"id": "2",
+			"nom": "Claire",
+			"mail": "killcreek@gmail.com",
+			"mdp": "45couteauxtorse",
+			"derniere_co": "11/01/1856",
+			"actif": "non"
+		}
+		,
+		{
+			"id": "3",
+			"nom": "Amanda",
+			"mail": "petitesoeur@gmail.com",
+			"mdp": "peurdunoir",
+			"derniere_co": "07/12/2024",
+			"actif": "non"
+		}
+		,
+		{
+			"id": "4",
+			"nom": "Alicia",
+			"mail": "alicia.langston@gmail.com",
+			"mdp": "15Guedc67Gfr",
+			"derniere_co": "12/12/2024",
+			"actif": "oui"
+		}
+		,
+		{
+			"id": "5",
+			"nom": "Thomas",
+			"mail": "connarddepremiere@gmail.com",
+			"mdp": "creve",
+			"derniere_co": "12/12/2024",
+			"actif": "oui"
+		}
+	]
+}

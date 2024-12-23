@@ -1,0 +1,63 @@
+{"tickets": [
+    {
+      "id": "1",
+      "titre": "Probleme demarrage",
+      "description": "bah il démarre pas",
+      "date_de_creation": "12/12/2024 09:00:00",
+      "date_mise_a_jour": "14/12/2024 09:00:00",
+      "impact": "BLOQUANT",
+      "etat": "OUVERT",
+      "utilisateur_createur": "1",
+      "poste_informatique": "22",
+      "type_de_demande": "démarrage"
+    },
+    {
+      "id": "2",
+      "titre": "Probleme logiciel compta",
+      "description": "le logiciel ne s'ouvre pas",
+      "impact": "MAJEUR",
+      "etat": "EN_COURS",
+      "utilisateur_createur": "3",
+      "poste_informatique": "36",
+      "type_de_demande": "logiciel",
+      "date_de_creation": "10/12/2024 11:43:36",
+      "date_mise_a_jour": "15/12/2024 17:02:50"
+    },
+    {
+      "id": "3",
+      "titre": "Probleme antivirus",
+      "description": "l'antivirus ne marche plus'",
+      "impact": "MAJEUR",
+      "etat": "RESOLU",
+      "utilisateur_createur": "2",
+      "poste_informatique": "12",
+      "type_de_demande": "logiciel",
+      "date_de_creation": "29/11/2024 14:56:36",
+      "date_mise_a_jour": "02/12/2024 09:21:14"
+    },
+    {
+      "id": "4",
+      "titre": "Perte du fichier des comptes",
+      "description": "le fichier à été effacé sans faire exprès",
+      "impact": "BLOQUANT",
+      "etat": "FERME",
+      "utilisateur_createur": "4",
+      "poste_informatique": "08",
+      "type_de_demande": "document",
+      "date_de_creation": "24/11/2024 10:20:36",
+      "date_mise_a_jour": "27/11/2024 15:54:23"
+    },
+    {
+      "id": "5",
+      "titre": "Probleme téléchargement",
+      "description": "le téléchargement ne se lance pas",
+      "impact": "MINEUR",
+      "etat": "ANNULE",
+      "utilisateur_createur": "5",
+      "poste_informatique": "34",
+      "type_de_demande": "téléchargement",
+      "date_de_creation": "14/12/2024 11:34:36",
+      "date_mise_a_jour": "14/12/2024 13:02:50"
+    }
+  ]
+}

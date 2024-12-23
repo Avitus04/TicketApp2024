@@ -1,0 +1,38 @@
+{"poste_informatique":
+	[
+		{
+			"id": "34",
+			"utilisateur": "Amanda",
+			"etat": "en fonction",
+			"configuration": "Poste pour faire des tâches minimes"
+		}
+		,
+		{
+			"id": "12",
+			"utilisateur": "Alicia",
+			"etat": "en fonction",
+			"configuration": "Poste pour l'analyse de documents"
+		}
+		,
+		{
+			"id": "22",
+			"utilisateur": "Lana",
+			"etat": "en commande",
+			"configuration": "Poste pour s'occuper des horaires"
+		}
+		,
+		{
+			"id": "08",
+			"utilisateur": "Thomas",
+			"etat": "en maintenance",
+			"configuration": "Poste pour la compta"
+		}
+		,
+		{
+			"id": "36",
+			"utilisateur": "Claire",
+			"etat": "en commande",
+			"configuration": "Poste pour s'occuper des logiciels"
+		}
+	]
+}
